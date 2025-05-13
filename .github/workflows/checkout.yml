@@ -7,7 +7,7 @@ jobs:
     steps:
     - run: ls -la
     - uses: actions/checkout@v4
-      whith:
+      with:
         path: our-source
     - run: ls -la
     - run: ls -la our-source
