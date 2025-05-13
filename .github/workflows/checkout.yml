@@ -7,5 +7,8 @@ jobs:
     steps:
     - run: ls -la
     - uses: actions/checkout@v4
+      whith:
+        path: our-source
     - run: ls -la
-    - run: cat .github/workflows/checkout.yml
+    - run: ls -la our-source
+    - run: cat our-source/.github/workflows/checkout.yml
